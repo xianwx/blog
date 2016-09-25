@@ -95,6 +95,14 @@ Plugins: -hexo-generator-feed -hexo-generator-search
 ## 11. 图床
 到[https://portal.qiniu.com/create](https://portal.qiniu.com/create)注册一个账号
 参考[如何使用七牛](http://www.jianshu.com/p/6dce6094bf61)
-## 12. 剩下的一些杂七杂八的配置
+## 12. 如何保存自己的博客
+今天想了一下怎么保存，思路是：
+    相同的仓库下新建一个目录，或者新建一个仓库
+    clone下来跟blog关联（还没开始的先clone下来然后hexo init那个文件夹，已经init过了clone下来然后把东西拷贝过去）
+    如果跟博客是相同的目录，checkout到保存的分支，反正使用hexo d是会推送到master分支的，也指定好仓库的，所以不需要担心
+    每次有修改push一下就好了。
+## 13. about me and tabs
+想写about me的话，使用hexo new about me.
+## 14. 剩下的一些杂七杂八的配置
 预告：rss，写博客的方法，写about me，markdown语法，-- todo 自己还需要研究的：购买域名
 先欠着，往后补上，回家去咯~
