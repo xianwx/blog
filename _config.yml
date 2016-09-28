@@ -63,7 +63,7 @@ pagination_dir: page
 # permalink: 404.md
 
 # Extensions
-# Plugins: -hexo-generator-feed -hexo-generator-search -hexo-generator-sitemap
+# Plugins:
 
 feed:
   type: atom

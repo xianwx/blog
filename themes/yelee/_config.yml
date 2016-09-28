@@ -258,10 +258,13 @@ share:
   ## Go to www.addthis.com/dashboard to get your pubid (in src of Code)
   ## and customize AddThis share buttons
 
+sitemap: 
+  path: sitemap.xml
+
 # 百度、谷歌站长验证。填写 HTML 标签 content
 # Site Verification for Google and Baidu. HTML label content.
 baidu_site: 
-google_site: 
+google_site:
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X
 google_analytics: 
