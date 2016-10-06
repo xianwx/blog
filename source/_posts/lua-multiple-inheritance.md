@@ -42,7 +42,7 @@ print(me.money)
 ```
 这里的执行结果将是13000000000，我终于有钱了:)
 上面的执行过程是：
-访问my.money->发现没有这个字段->my有元表->查找元表fathermayun->lua不会直接找fathermayun里的money字段->lua发现fathermayun有元方法__index->调用元方法->发现元方法是个table，在元方法的table里寻找->获得money的值
+访问me.money->发现没有这个字段->me有元表->查找元表fathermayun->lua不会直接找fathermayun里的money字段->lua发现fathermayun有元方法__index->调用元方法->发现元方法是个table，在元方法的table里寻找->获得money的值
 __index有以下取值
 ```
 表，会直接在表里找
@@ -65,7 +65,7 @@ local function class(super)
     cls.__index = cls
     function cls.new(...)
         local instance = setmetatable({}, cls)
-        cls:ctor(...)
+        instance:ctor(...)
         return instance
     end
     return cls
@@ -121,16 +121,11 @@ local function class(...)
         -- 在查找table的时候，会把table的key传进来
         return search(key, supers)
     end})
-
-    if next(supers) then
-        -- print_r(supers)
-        print_r(cls)
-    end
     
     function cls.new(...)
         local instance = {}
         setmetatable(instance, {__index = cls})
-        cls:ctor(...)
+        instance:ctor(...)
         return instance
     end
     return cls
