@@ -63,7 +63,6 @@ $ hexo d #deploy的缩写，首次会让你输入账号密码
 ```
 等待上传成功，可以打开**[http://xianwx.github.io](http://xianwx.github.io)**看效果啦！
 
--- todo 新建一个分支保存博客程序，避免换电脑的时候悲剧
 ## 8. 添加多说
 ```
 ① 到http://duoshuo.com/create-site/新建一个站点
@@ -103,6 +102,3 @@ Plugins: -hexo-generator-feed -hexo-generator-search
     每次有修改push一下就好了。
 ## 13. about me and tabs
 想写about me的话，使用hexo new about me.
-## 14. 剩下的一些杂七杂八的配置
-预告：rss，写博客的方法，写about me，markdown语法，-- todo 自己还需要研究的：购买域名
-先欠着，往后补上，回家去咯~
