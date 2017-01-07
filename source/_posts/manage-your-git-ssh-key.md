@@ -73,3 +73,5 @@ $ git config user.email "your github email"
 $ git config --global --unset user.name
 $ git config --global --unset user.email
 ```
+## 6. 对于本博客的修改
+在博客目录下边的.deploy_git下边里有config文件，这是hexo提交的时候对应的config文件，可以把.git下边的config里的user拷过来，顺便把这个url改成ssh的。
