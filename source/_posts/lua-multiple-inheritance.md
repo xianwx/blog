@@ -72,7 +72,7 @@ local function class(super)
 end
 ```
 挺简单的，注释就不写了……让我们来测试一下
-```
+``` lua
 local Test = class()
 function Test:doSomething()
     print("test doSomething")
