@@ -127,7 +127,7 @@ image_minifier:
 ## 特别重要！先忽略这个文件，如果以后修改配置，记得把token那里改回your_token再上传！！！！！
 baidu_url_submit:
   count: 10 ## 比如3，代表提交最新的三个链接
-  host: http://xianwx.xyz ## 在百度站长平台中注册的域名
+  host: xianwx.xyz ## 在百度站长平台中注册的域名
   token: your_token ## 请注意这是您的秘钥， 请不要发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
 
