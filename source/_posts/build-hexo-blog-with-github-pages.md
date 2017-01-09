@@ -102,3 +102,4 @@ Plugins: -hexo-generator-feed -hexo-generator-search
     每次有修改push一下就好了。
 ## 13. about me and tabs
 想写about me的话，使用hexo new about me.
+## 14. 如何绑定域名
