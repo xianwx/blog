@@ -76,10 +76,10 @@ theme: yelee
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: https://github.com/xianwx/xianwx.github.io.git
-  branch: master 
-
+ -  type: git
+    repository: git@github.com:xianwx/xianwx.github.io.git
+    branch: master
+    
 index_generator:
   per_page: 15
 
