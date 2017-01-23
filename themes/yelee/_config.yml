@@ -200,8 +200,8 @@ aboutme: 苦苦徘徊在手游前端入门线外的一只熊
 ## `global` 0: 分开设置, 1: 全部在新标签打开, 2: 全部在"当前"标签打开
 open_in_new:
   global: 0 # 0-2
-  title: false # article title in homepage 主页文章标题
-  post: false # link within post/page 正文中的链接
+  title: 1 # article title in homepage 主页文章标题
+  post: 1 # link within post/page 正文中的链接
   tags: true # 标签
   categories: false # 分类
   article_nav: false # 导航
@@ -210,6 +210,7 @@ open_in_new:
   menu: false # 边栏菜单
   friends: true  # 友情链接
   socail: true # 社交图标
+  duoshuo: 1
 
 # Customize feed link 自定义订阅地址
 rss: /atom.xml
