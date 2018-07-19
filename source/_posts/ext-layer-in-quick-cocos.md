@@ -9,7 +9,7 @@ tags:
 - quick cocos
 ---
 ## 1. 初衷
-好久没有更新博客了，之前写了lua元表相关的东西，如果对元表不理解的话，可以在站内搜索一下**lua的元表以及多继承**。
+好久没有更新博客了，之前写了lua元表相关的东西，如果对元表不理解的话，可以在看一下{% post_link lua-multiple-inheritance lua的元表以及多继承 %}。
 现在在用quick cocos在写一款游戏，等空闲了可以来更新一下躺过的坑。
 闲话少说，现在用cocos开发，走的路子多是策划或者美术拼出界面(cocos studio)，然后到处csb文件程序加载，再对界面进行各项处理(creator没用过)。
 于是问题来了，一般的做法，将csb读取过来作为layer的child，可能会出现非常多次的对其getChild（可能层次很深），对csb上的某个控件进行setString、setTexture等，怎么做比较好？
