@@ -40,7 +40,22 @@ posts.data = posts.data.sort(function(a, b) {
 * 打开自己的歌单，有个生成外链播放器的按钮
 * 获取到外链代码，修改`layout/_partial/left-col.ejs`比如：
 ```js
+
 <div id="music-area" class="switch-area">
     <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=290 height=310 src="//music.163.com/outchain/player?type=0&id=523244238&auto=1&height=380&qlrc=1"></iframe>
 </div>
+```
+
+## 给博客文章插入图片
+可以把图片放在source目录下边，比如新建一个images文件夹，既可以用这种方式访问到它们。
+```markdown
+![](/images/14D6CC4556F6F4E73E2FB578D0D2F26E.jpg)
+```
+参考：[Hexo博客搭建之在文章中插入图片](https://yanyinhong.github.io/2017/05/02/How-to-insert-image-in-hexo-post/)
+
+## 给博客文章引用站内其它文章
+{% post_link 文章文件名（.md） 文章标题（可选） %}
+e.g:
+```markdown
+{% post_link node-start-server Node开启一个HTTP服务器 %}
 ```
