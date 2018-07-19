@@ -7,5 +7,5 @@ categories:
 - 技术学习
 ---
 # C++导出给LUA使用的时候
-    在导出给lua使用的时候，如果父类没有导出，那父控件继承的公共方法将没有。
-    比如 EffectLight 继承自 Effect Effect 继承自 Ref 如果不导出Effect 创建的EffectLight对象将没有retain方法，除非导出Effect。
+在导出给lua使用的时候，如果父类没有导出，那父控件继承的公共方法将没有。
+比如 EffectLight 继承自 Effect Effect 继承自 Ref 如果不导出Effect 创建的EffectLight对象将没有retain方法，除非导出Effect。
