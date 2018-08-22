@@ -2,7 +2,8 @@
 title: Mac使用记录
 description: "使用Mac的时候碰到的一些事情的记录。"
 date: 2018-07-18 17:48:48
-tags: Mac
+tags: 
+- mac
 categories:
 - 技术学习
 ---
@@ -43,3 +44,6 @@ brew link --overwrite inetutils
 3\. 右键新创建的schema，set as default schema
 
 4\. 可以开始创建table了。
+
+# 将Mac的ss代理共享给其它设备
+{% post_link mac-share-ss Mac通过Privoxy共享shadowsocks代理给其它设备 %}

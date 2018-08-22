@@ -4,7 +4,7 @@ description: "ssh这么好用的吗！"
 date: 2018-07-18 18:37:29
 tags:
 - Linux
-- Mac
+- mac
 - ssh
 categories:
 - 技术学习
